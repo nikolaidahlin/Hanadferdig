@@ -3,3 +3,18 @@
     height: max-contents;
 
 }
+
+#miniBildet {
+    position: absolute;
+    width: 150px;
+   top: 650px;
+   left: 145px;
+    
+}
+
+#liteBildet {
+    
+    width: 255px;
+   
+    
+}
