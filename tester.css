@@ -1,4 +1,4 @@
-#Screen { 
+#ticketScreen { 
     opacity: 1;
     height: max-contents;
 
@@ -19,7 +19,7 @@
     letter-spacing: 0.03em;
 }
 
-#miniBildet {
+#containerFlashingPicture {
     position: absolute;
     width: 150px;
     top: 610px;
@@ -39,7 +39,7 @@
 
 }
 
-#liteBildet {
+#dailyPicture {
     
     width: 255px;
    
