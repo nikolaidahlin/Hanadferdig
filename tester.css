@@ -1,3 +1,5 @@
-.Screen { 
+#Screen { 
+    opacity: 0;
+    height: max-contents;
 
 }
