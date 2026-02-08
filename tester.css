@@ -22,14 +22,42 @@
 #miniBildet {
     position: absolute;
     width: 150px;
-   top: 650px;
-   left: 145px;
+    top: 610px;
+    left: 145px;
     
+}
+
+#Grønt {
+
+    position: absolute;
+    width: 253px;
+    top: 1px;
+    left: 2px;
+    opacity: 0;
+
+    animation: flash 1s infinite;
+
 }
 
 #liteBildet {
     
     width: 255px;
    
+    
+}
+
+@keyframes flash {
+
+0% {
+    opacity: 0;
+}
+
+50% {
+opacity: 1;
+}
+
+100% {
+    opacity: 0;
+}
     
 }
